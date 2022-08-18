@@ -1,0 +1,17 @@
+{
+    "blogs":[
+        {
+            "title": "My first blog",
+            "body": "Why do we fall, so we can pick ourselves backup",
+            "author": "mario",
+            "id": 1
+        },
+        {
+            "title": "My second blog",
+            "body": "Why do we fall, so we can pick ourselves backup",
+            "author": "luigi",
+            "id": 2
+        }
+
+    ]
+}

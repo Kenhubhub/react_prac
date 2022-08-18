@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Navbar from './Navbar'
+import Home from './Home'
+// Regarding dynamic values in an react app, it can be passed into a
+// react component with curly braces as long as that dynamic value is a
+// string,number but it cannot be an object or boolean
 
 function App() {
+  const title = "Welcome to the new blog";
+  const likes = 50;
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar></Navbar>
+      <div className="content">
+        <Home></Home>
+
+      </div>
     </div>
+      
+
+    
   );
 }
 
